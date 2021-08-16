@@ -1,0 +1,21 @@
+.footer{
+    background:  #f3f3f3 url("../Images/overlay.png");
+    padding-bottom: 0.25em;
+}
+.footer header{
+    padding-bottom: 4em;
+    margin-bottom: 4em;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.05);
+    margin-left: 50px;
+}
+.about{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    padding-top: 20px;
+}
+a{
+    cursor: pointer;
+}

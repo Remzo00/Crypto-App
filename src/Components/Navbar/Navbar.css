@@ -1,0 +1,68 @@
+.main-header{
+    background: #1890ff url('../../Images/overlay.png');
+    padding-bottom: 70px;
+}
+
+    /* NAV */
+
+.nav{
+  display: block;
+  top: 2.5em;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.nav ul{
+    display: inline-block;
+    border-radius: 0.35em;
+    box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+    padding: 0 1em 0 1em;
+    cursor: pointer;
+}
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 1.5em 0 1.5em;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #eee;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.nav .icon{
+    background: #ccc;
+    width: 30px;
+    height: 30px;
+    border-radius: 35px;
+    font-size: 18px;
+    display: inline-block;
+}
+.nav .avatar{
+    font-size: 18px;
+    color: #fff;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+
+    /* DESCRIPTION */
+
+.description{
+    text-align: center;
+    top: 1.5em;
+}
+.description h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.25rem;
+}
+.description p{
+    color: #ccc;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
